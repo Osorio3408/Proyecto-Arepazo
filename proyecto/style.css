@@ -1,0 +1,212 @@
+body {
+    /*background: url(imgs/logo.png) center no-repeat;*/
+    font-family: Arial, Helvatica;
+    background: linear-gradient(100deg, rgba(212, 163, 115), rgb(0,0,0,0), rgba(204, 213, 174)) no-repeat;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.imagen {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    margin-top: -9px;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+@media(max-width:1400px) {
+    h1 {
+        font-size: 3vw;
+    }
+    .iniciar_sesion_formulario {
+        width: 60%;
+        height: 100vw;
+        font-size: 2em;
+        background-color: red;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 5%;
+        text-align: justify;
+        border: 1px dashed #cc6600;
+        border-radius: 20px;
+    }
+
+}
+
+@media(max-width:900px) {
+    h1 {
+        font-size: 2vw;
+    }
+    .Usuario {
+        width: 100%;
+        height: 2vw;
+        background: rgba(0, 0, 0, 0);
+        border: 2px solid rgba(0, 0, 0, 1);
+        font-size: 0.1em;
+        color: #cc6600;
+        border-radius: 100px;
+    }
+   
+    /* .Cerrar_sesion { */
+        /* margin-left: 10px; */
+    /* } */
+}
+
+@media(max-width:375px) {
+    h1 {
+        font-size: 6vw;
+    }
+}
+
+
+/* .ctn-form {
+    display: inline-block;
+    justify-content: center;
+    width: 20%;
+    height: 20vw;
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: 15vw;
+    margin-top: 15vw;
+    float: right;
+} */
+
+.Iniciar {
+    width: 100%;
+    background-color: #7C3111;
+    justify-content: flex-start;
+    height: 2vw;
+    padding: auto;
+    margin-bottom: 4%;
+    margin-top: 20%;
+    text-align: center;
+    border: none;
+    font-weight: 200;
+    cursor: pointer;
+    font-size: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: table;
+    border-radius: 100px;
+    color: white;
+}
+
+.Iniciar:hover {
+    color: black;
+    background-color: #bc6c25;
+}
+
+.Usuario {
+    width: 100%;
+    height: 2vw;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 1);
+    font-size: 0.8em;
+    color: #cc6600;
+    border-radius: 100px;
+}
+
+.Contraseña {
+    width: 100%;
+    height: 2vw;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 1);
+    font-size: 0.8em;
+    color: #cc6600;
+    border-radius: 100px;
+}
+
+.Cerrar_sesion {
+    color: red;
+}
+
+.Cerrar_sesion:hover {
+    background: red;
+    color: white;
+}
+
+.msg-error {
+    color: red;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bad {
+    color: red;
+    font-size: 45px;
+    text-align: center;
+}
+
+.iniciar_sesion_todo{
+    margin: 20px;
+    display: flex;
+    width: 80%;
+    margin-left: 10vw;
+    height: 45vw;
+    margin-top: 80px;
+}
+
+.iniciar_sesion_imagen {
+    width: 60%;
+    height: 40vw;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    border: transparent;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+.iniciar_sesion_imagen img{
+    width: 80%;
+    justify-content: center center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  
+}
+
+.iniciar_sesion_texto {
+    width: 40%;
+    height: 40vw;
+    background:rgb(212, 163, 115);
+    color: black;
+    border: transparent;
+    box-shadow: 10px 10px 8px 6px #888888;
+}
+
+.iniciar_sesion_texto h1 {
+    color: #011627;
+}
+
+.iniciar_sesion_formulario {
+    width: 60%;
+    height: 30vw;
+    font-size: 2em;
+    background-color: GhostWhite;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+    text-align: justify;
+    border: 1px dashed #cc6600;
+    border-radius: 20px;
+}
+
+.lc {
+    margin-top: 3vw;
+}
+
+.ul {
+    margin-top: 1vw;
+}
